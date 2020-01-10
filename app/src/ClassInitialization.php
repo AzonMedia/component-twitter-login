@@ -7,7 +7,7 @@ use Guzaba2\Base\Base;
 use Guzaba2\Event\Event;
 use Guzaba2\Kernel\Interfaces\ClassInitializationInterface;
 use Guzaba2\Mvc\ExecutorMiddleware;
-use GuzabaPlatform\Facebook\Login\Hooks\AfterLoginMain;
+use GuzabaPlatform\Twitter\Login\Hooks\AfterLoginMain;
 use GuzabaPlatform\Platform\Authentication\Controllers\Auth;
 
 /**
