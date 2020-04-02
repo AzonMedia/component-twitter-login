@@ -38,7 +38,7 @@ class Component extends BaseComponent implements ComponentInterface, ComponentIn
 
     public static function register_login_hook() : void
     {
-        Controller::register_after_hook(Auth::class, '_after_main', [ new AfterLoginMain(), 'execute_hook' ] );
+        Controller::register_after_hook(Auth::class, '_after_login_get', [ new AfterLoginMain(), 'execute_hook' ] );
         Controller::register_after_hook(AfterLoginMain::class, '_after_execute_hook', [ new TestNestedHook(), 'execute_hook' ] );
     }
 }
