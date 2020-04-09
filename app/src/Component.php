@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace GuzabaPlatform\Twitter\Login;
 
 use GuzabaPlatform\Components\Base\BaseComponent;
-use Guzaba2\Base\Base;
 use Guzaba2\Mvc\Controller;
 use GuzabaPlatform\Components\Base\Interfaces\ComponentInitializationInterface;
 use GuzabaPlatform\Components\Base\Interfaces\ComponentInterface;
